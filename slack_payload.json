@@ -1,0 +1,38 @@
+{
+  "username": "Build-Mon",
+  "icon_emoji": ":white-check-mark:",
+  "channel": "<Channel-ID>",
+  "text": "*<https://<your-bamboo-url>|Test Run Successful>*",
+  "attachments": [
+    {
+      "color": "#7ACD0D",
+      "blocks": [
+        {
+          "type": "section",
+          "text": {
+            "type": "mrkdwn",
+            "text": ""
+          }
+        },
+        {
+          "type": "divider"
+        },
+        {
+          "type": "context",
+          "elements": [
+            {
+              "type": "image",
+              "image_url": "https://emoji.slack-edge.com/<some-fun-custom-emoji>",
+              "alt_text": ":bot:"
+            },
+            {
+              "type": "plain_text",
+              "emoji": true,
+              "text": "Build Monitoring"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
