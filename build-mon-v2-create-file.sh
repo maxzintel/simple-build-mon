@@ -1,3 +1,3 @@
 #!/bin/bash
 
-touch ${bamboo.planName}-${bamboo.buildNumber}-success.txt
+touch ${bamboo.buildKey}-${bamboo.buildNumber}-success.txt
